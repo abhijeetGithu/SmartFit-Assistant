@@ -4,6 +4,41 @@
   <img src="/public/screenshot-for-readme.png" alt="Demo App" />
 </p>
 
+**Prompt Used:**
+
+> Hello `{{ full_name }}`, I hope you are doing well.  
+> I'm here to help you build a personalized diet and weekly gym workout plan that fits your lifestyle.  
+> I will need to gather some details from you to create something that's truly effective.  
+> **Are you ready to get started?**
+
+---
+
+### 🔍 Information Collected by the Assistant:
+
+| Field               | Type   | Description                              |
+|--------------------|--------|------------------------------------------|
+| `age`              | string | Customer's age                           |
+| `height`           | string | Customer's height                        |
+| `weight`           | string | Customer's weight                        |
+| `injuries`         | string | Any existing injuries                    |
+| `fitness_goal`     | string | Primary fitness goal                     |
+| `workout_days`     | string | Number of days they can work out weekly |
+| `fitness_level`    | string | Current fitness level                    |
+| `dietary_restrictions` | string | Food allergies or dietary restrictions |
+
+---
+
+**Assistant Response After Input:**
+
+> Thank you for sharing this information!  
+> I'm creating your personalized fitness and nutrition plan right now.  
+> You'll be redirected to your profile screen — just refresh the page in a few seconds to view your complete program.  
+> We hope that this program will help you reach your goals.  
+> **Have a good day!**
+
+---
+
+
 ##  Tech Stack
 
 * **Framework**: Next.js, React (App Router)
