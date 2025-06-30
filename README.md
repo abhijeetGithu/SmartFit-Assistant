@@ -1,10 +1,10 @@
-<h1 align="center">💪 AI Fitness Assistant 🤖</h1>
+<h1 align="center"> AI Fitness Assistant </h1>
 
 <p align="center">
   <img src="/public/screenshot-for-readme.png" alt="Demo App" />
 </p>
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 * **Framework**: Next.js, React (App Router)
 * **Styling**: Tailwind CSS, Shadcn UI
@@ -12,7 +12,7 @@
 * **Authentication**: Clerk
 * **Database**: Convex (Real-time backend)
 
-## 🎯 Features
+##  Features
 
 * **🎧 Smart Voice Assistant**
   Chat with an AI that understands your fitness goals, health conditions, and preferences
@@ -37,7 +37,7 @@
 
 ---
 
-## 📦 Environment Setup
+## Environment Setup
 
 Create a `.env` file with the following variables:
 
